@@ -7,7 +7,7 @@ const public = path.resolve(__dirname, './public');
 /*server.listen(2020, () => console.log('Abriendo el servidor http://localhost:2020 de MercadoLiebre')); // levanta el server*/
 
 server.listen(process.env.PORT || 2020, function () {
-   console.log('Servidor corriendo en el puerto 2020');
+   console.log('Abriendo el servidor http://localhost:2020 de MercadoLiebre');
 })
 
 server.use(express.static(public));
