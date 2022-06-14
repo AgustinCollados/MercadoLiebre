@@ -1,0 +1,71 @@
+.register {
+   display: flex;
+   flex-wrap: wrap;
+   background-color: #ebebeb;
+   width: 75%;
+   padding: 20px 20px 0 20px;
+   margin: 10px 0 10px 10px;
+   border-radius: 5px;
+   font-size: 12px;
+}
+
+.register label{
+   margin-bottom: 5px;
+   display: block;
+}
+
+.item-form {
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   padding: 5px 0 5px 0;
+   align-items: left;
+}
+
+.item-form-texto {
+   display: flex;
+   flex-wrap: wrap;
+   width: 100%;
+   padding: 5px 0 5px 0;
+   align-items: left;
+   font-weight: bold;
+}
+
+.botonera {
+   display: flex;
+   justify-content: space-around;
+   width: 100%;
+   padding-top: 20px;
+}
+
+.item-form-boton {
+   display: flex;
+   flex-wrap: wrap;
+   width: 100px;
+   padding: 10px;
+   justify-content: space-around;
+   
+}
+
+.boton-principal {
+   display: flex;
+   list-style: none;
+   text-decoration: none;
+}
+
+.recuadro {
+   border-radius: 10px;
+   width: 250px;
+   height: 25px;
+   text-align: center;
+   border: none;
+   background-color: white;
+}
+
+.check-radio {
+   width: 50px;
+}
+
+.texto-fecha {
+   width: 100%;
+}
